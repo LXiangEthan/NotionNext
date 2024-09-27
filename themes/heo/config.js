@@ -22,7 +22,7 @@ const CONFIG = {
   HEO_HERO_TITLE_2: '与思维认知',
   HEO_HERO_TITLE_3: 'door.ethanliang.top',
   HEO_HERO_TITLE_4: '新版上线',
-  HEO_HERO_TITLE_5: 'Ethan's Share About',
+  HEO_HERO_TITLE_5: 'Ethan Share About',
   HEO_HERO_TITLE_LINK: 'https://door.ethanliang.top',
 
   // 英雄区显示三个置顶分类
