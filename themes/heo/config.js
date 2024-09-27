@@ -1,5 +1,5 @@
 const CONFIG = {
-  HEO_HOME_POST_TWO_COLS: true, // 首页博客两列显示，若为false则只显示一列
+  HEO_HOME_POST_TWO_COLS: false, // 首页博客两列显示，若为false则只显示一列
   HEO_LOADING_COVER: true, // 页面加载的遮罩动画
 
   HEO_HOME_BANNER_ENABLE: true,
@@ -8,8 +8,8 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '欢迎来到我的博客', url: 'https://door.ethanliang.top' }
-    // { title: '访问文档中心获取更多帮助', url: 'https://door.ethanliang.top' }
+    { title: '欢迎来到我的博客', url: 'https://door.ethanliang.top' },
+    { title: '热爱让我们相遇', url: 'https://door.ethanliang.top' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -131,10 +131,10 @@ const CONFIG = {
   HEO_POST_LIST_COVER: false, // 列表显示文章封面
   HEO_POST_LIST_COVER_HOVER_ENLARGE: false, // 列表鼠标悬停放大
 
-  HEO_POST_LIST_COVER_DEFAULT: true, // 封面为空时用站点背景做默认封面
+  HEO_POST_LIST_COVER_DEFAULT: false, // 封面为空时用站点背景做默认封面
   HEO_POST_LIST_SUMMARY: true, // 文章摘要
   HEO_POST_LIST_PREVIEW: false, // 读取文章预览
-  HEO_POST_LIST_IMG_CROSSOVER: true, // 博客列表图片左右交错
+  HEO_POST_LIST_IMG_CROSSOVER: false, // 博客列表图片左右交错
 
   HEO_ARTICLE_ADJACENT: true, // 显示上一篇下一篇文章推荐
   HEO_ARTICLE_COPYRIGHT: true, // 显示文章版权声明
